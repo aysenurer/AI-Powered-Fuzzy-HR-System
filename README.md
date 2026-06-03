@@ -125,4 +125,4 @@ Bu proje, bulanık mantık yaklaşımı kullanarak insan kaynakları süreçleri
 - Açıklanabilir yapay zeka
 - Görselleştirilmiş karar destek sistemi sunmayı amaçlamaktadır.
 
-## AYŞENUR ER - 23430070070
+### AYŞENUR ER - 23430070070
