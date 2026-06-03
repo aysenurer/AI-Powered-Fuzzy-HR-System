@@ -20,47 +20,61 @@ Geleneksel işe alım süreçlerinde subjektif değerlendirmeleri azaltmak ve:
 Proje bağımsız çalışan modüllerden oluşmaktadır:
 
 ## 📊 Modül 1: Veri Üretim Sistemi (data_generator.py)
-•NumPy kullanılarak sentetik aday verisi üretilir
-•Adaylar aşağıdaki kriterlerle modellenir:
+NumPy kullanılarak sentetik aday verisi üretilir
+
+Adaylar aşağıdaki kriterlerle modellenir:
+
    - GPA
    - Experience (Deneyim)
    - Projects (Proje sayısı)
    - Test Score
    - Communication Skills
-•Veri CSV formatında kaydedilir
+
+Veri CSV formatında kaydedilir
 
 ## 🧠 Modül 2: Fuzzy Logic Karar Motoru (fuzzy_engine.py)
-•Mamdani Fuzzy Inference System kullanılır
-•Girdi değişkenleri bulanık kümelere ayrılır:
+Mamdani Fuzzy Inference System kullanılır
+
+Girdi değişkenleri bulanık kümelere ayrılır:
    Low / Medium / High (GPA)
    Weak / Strong (Communication)
    Few / Many (Projects)
-•IF–THEN fuzzy kuralları ile aday uygunluğu hesaplanır
+
+IF–THEN fuzzy kuralları ile aday uygunluğu hesaplanır
 ### Çıktı: Suitability Score (0–100)
 
 ## 🔍 Modül 3: Açıklanabilir Yapay Zeka (explainability.py)
-•Aday skorlarının neden oluştuğunu metinsel olarak açıklar
-•Kural tabanlı yorum üretir:
+Aday skorlarının neden oluştuğunu metinsel olarak açıklar
+
+Kural tabanlı yorum üretir:
    - Yüksek GPA pozitif etki
    - Düşük iletişim negatif etki
    - Yüksek deneyim olumlu katkı sağlar
 
 ## 📈 Modül 4: Dashboard Arayüzü (app.py)
 Streamlit tabanlı etkileşimli panel:
-•CSV dosyası yükleme
-•Aday sıralama sistemi
-•KPI kartları:
-   Toplam aday
-   Ortalama skor
-   En yüksek skor
-   Excellent aday sayısı
-•Filtreleme sistemi
-•Grafikler:
-   Skor dağılımı
-   Kategori dağılımı (pie chart)
-•En iyi aday önerisi
-•AI açıklama paneli
-•CSV export özelliği
+
+CSV dosyası yükleme
+
+Aday sıralama sistemi
+
+KPI kartları:
+   - Toplam aday
+   - Ortalama skor
+   - En yüksek skor
+   - Excellent aday sayısı
+
+Filtreleme sistemi
+
+Grafikler:
+   - Skor dağılımı
+   - Kategori dağılımı (pie chart)
+
+En iyi aday önerisi
+
+AI açıklama paneli
+
+CSV export özelliği
 
 ## ⚙️ Kullanılan Teknolojiler
 - Python
@@ -110,3 +124,5 @@ Bu proje, bulanık mantık yaklaşımı kullanarak insan kaynakları süreçleri
 - Çok kriterli değerlendirme
 - Açıklanabilir yapay zeka
 - Görselleştirilmiş karar destek sistemi sunmayı amaçlamaktadır.
+
+## AYŞENUR ER - 23430070070
